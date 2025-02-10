@@ -1,0 +1,55 @@
+* {
+  /*background-color: brown;*/
+  margin: 0;
+  padding: 0;
+  color: white;
+}
+
+body {
+  background-color: aqua;
+  height: 100vh;
+}
+
+.fondo {
+  background-color: violet;
+}
+
+#parrafo {
+  font-size: 50px;
+}
+
+[href] {
+  text-decoration: none;
+  font-size: 40px;
+  color: black;
+}
+
+[href="http://sofiaplus.com"] {
+  color: red;
+}
+
+input {
+  height: 60px;
+  width: 100%;
+}
+
+[type=text] {
+  background-color: red;
+}
+
+[type=email] {
+  background-color: greenyellow;
+}
+
+[type=number] {
+  background-color: gray;
+}
+
+[href$=".org"] /*selector para buscar el final de las palabras*/{
+  color: blue
+}
+
+[href^="https"] /*buscar al principio de las palabras*/{
+  color: yellow;
+}
+
